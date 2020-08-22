@@ -51,6 +51,7 @@ const InputForm = (props) => {
   return (
     <form onSubmit={handleSubmit}>
       <input
+        autoFocus
         type="text"
         value={inputNum}
         defaultValue={inputNum}
