@@ -20,16 +20,10 @@ npm install
 
 ## Usage
 
-Run two commands in separate console windows:
+Run:
 
 ```bash
-npm run dev-server
-```
-
-and
-
-```bash
-npm run dev-bundle
+npm start
 ```
 
 Open you browser on http://localhost:4242
