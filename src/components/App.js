@@ -187,7 +187,7 @@ export default function App() {
         <label htmlFor="wSize">Window size: {windowSize}</label>
       </form>
       <ResponsiveContainer height={400}>
-        <LineChart data={timeSeries} width="100%" height="100%">
+        <LineChart data={timeSeries}>
           <XAxis dataKey="dateDisplay" />
           <YAxis type="number" domain={[minValue, maxValue]} />
           <Legend />
